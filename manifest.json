@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Favourite Google Calendars",
+  "version": "0.1.0",
+  "description": "Add the ability to show your favourite calendars",
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://calendar.google.com/calendar/*"]
+  }]
+}
